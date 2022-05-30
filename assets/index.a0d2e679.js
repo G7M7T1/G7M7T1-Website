@@ -2641,7 +2641,7 @@ kl.to(".opener-logo", {scale: 1.2, ease: "bounce", duration: 2}).to(".opener-log
     xPercent: 100,
     opacity: 0,
     duration: 1
-}, "<+0.25").from(".logo", {scale: .3, opacity: 0, duration: .5}, "<+0.5").duration(1);
+}, "<+0.25").from(".logo", {scale: .3, opacity: 0, duration: .5}, "<+0.5");
 let Ol = Ze.timeline({paused: !0}).to(".headings h1", {y: -100, opacity: 0}).to(".headings h2", {
     y: 100,
     opacity: 0
