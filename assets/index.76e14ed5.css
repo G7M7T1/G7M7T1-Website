@@ -248,14 +248,28 @@
     display: none
 }
 
-.main .moreContent {
-    padding: 50px;
-    color: #fff
+.moreContent {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem 6rem
 }
 
-.main .moreContent h1 {
-    text-align: center;
-    padding-bottom: 2rem
+.avatar {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.text-content {
+    width: 40%
+}
+
+.text-content span {
+    color: #ff3f8f
 }
 
 .marquee__part {
@@ -265,7 +279,7 @@
 }
 
 .marquee {
-    background: #256dfd;
+    background: #ff3f8f;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -294,11 +308,10 @@ nav {
     left: 0;
     width: 100%;
     height: 5rem;
-    background-color: #0078ff;
+    background-color: #ff3f8f;
     color: #fff;
     display: none;
     padding: 0 2rem;
-    background-color: #0000004d;
     z-index: 100;
     align-items: center
 }
@@ -308,7 +321,8 @@ nav .logo {
     height: 3rem;
     overflow: hidden;
     display: flex;
-    align-items: center
+    align-items: center;
+    cursor: pointer
 }
 
 nav .logo img {
@@ -325,9 +339,36 @@ nav ul {
 
 nav ul li {
     position: relative;
-    padding-right: 1.5rem
+    padding-right: 1.5rem;
+    font-weight: 800
 }
 
 nav ul li a {
     color: #fff
+}
+
+.art-text {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 12rem 0
+}
+
+.art-text .art-text-text {
+    position: absolute;
+    font-size: 6rem
+}
+
+.art-text-1, .art-text-2 {
+    color: transparent;
+    -webkit-text-stroke: 3px #ff3f8f
+}
+
+.art-text-3 {
+    color: #ff3f8f
 }
