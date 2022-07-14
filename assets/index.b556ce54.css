@@ -269,7 +269,7 @@ nav ul li a {
 }
 
 .introduce-4 {
-    padding: 6rem 0;
+    padding: 6rem 0 1rem;
     text-align: center;
     color: #fff;
     font-size: 3rem;
@@ -531,4 +531,50 @@ nav ul li a {
     text-shadow: 2px 2px 20px rgba(0, 0, 0, .2);
     line-height: 1.4;
     word-spacing: 100vw
+}
+
+@media screen and (max-width: 1800px) {
+    .title h1 {
+        font-size: 6rem
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .title h1 {
+        font-size: 5rem
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title h1 {
+        font-size: 4rem
+    }
+
+    .text-content p {
+        font-size: .8rem
+    }
+
+    .art-text.scrolling h1 {
+        font-size: 6rem
+    }
+
+    .intro-text {
+        font-size: 1rem
+    }
+
+    .work-text {
+        font-size: 5rem
+    }
+
+    .website-section-title {
+        font-size: 4rem
+    }
+
+    .introduce-4 {
+        padding: 6rem 0 .5rem
+    }
+
+    .intro-main {
+        font-size: 3rem
+    }
 }
